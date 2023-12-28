@@ -1,0 +1,17 @@
+{
+  "name": "web-crawler",
+  "version": "1.0.0",
+  "description": "Nodejs application for crawling html files to extract links and then open those links in a web browser to interact with them.",
+  "main": "buy-items.js",
+  "scripts": {
+    "start": "node buy-items.js"
+  },
+  "author": "arockiaanandraj@gmail.com",
+  "license": "Unlicense",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "http": "^0.0.1-security",
+    "opener": "^1.5.2",
+    "puppeteer": "^21.6.1"
+  }
+}
